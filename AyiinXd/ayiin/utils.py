@@ -73,7 +73,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg", "photoyins.jpg"
+            "https://graph.org/file/e50aeb9b58cf29450d62f-98b7139c67a7a4eecd.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -131,8 +131,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg", 
-              "https://graph.org/file/40dc97c81ce7e67f4dc5d-d2b60fd5a4e4965547.jpg"
+              "https://graph.org/file/e50aeb9b58cf29450d62f-98b7139c67a7a4eecd.jpg", 
+              "https://graph.org/file/e50aeb9b58cf29450d62f-98b7139c67a7a4eecd.jpg"
           ]
     )
     await bot.send_message(bf, username)
